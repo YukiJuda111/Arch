@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="core_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="core_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="21,973.041 ns"></ZoomStartTime>
+      <ZoomEndTime time="21,997.662 ns"></ZoomEndTime>
+      <Cursor1Time time="21,976.561 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="61" />
+   <wvobject fp_name="/core_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/PC_IF" type="array">
+      <obj_property name="ElementShortName">PC_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/inst_IF" type="array">
+      <obj_property name="ElementShortName">inst_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/PC_ID" type="array">
+      <obj_property name="ElementShortName">PC_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/inst_ID" type="array">
+      <obj_property name="ElementShortName">inst_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/predict_state" type="array">
+      <obj_property name="ElementShortName">predict_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">predict_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/ctrl/predict_wrong" type="logic">
+      <obj_property name="ElementShortName">predict_wrong</obj_property>
+      <obj_property name="ObjectShortName">predict_wrong</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/JALR" type="logic">
+      <obj_property name="ElementShortName">JALR</obj_property>
+      <obj_property name="ObjectShortName">JALR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/RegWrite_ctrl" type="logic">
+      <obj_property name="ElementShortName">RegWrite_ctrl</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/mem_w_ctrl" type="logic">
+      <obj_property name="ElementShortName">mem_w_ctrl</obj_property>
+      <obj_property name="ObjectShortName">mem_w_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/mem_r_ctrl" type="logic">
+      <obj_property name="ElementShortName">mem_r_ctrl</obj_property>
+      <obj_property name="ObjectShortName">mem_r_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/ALUSrc_A_ctrl" type="logic">
+      <obj_property name="ElementShortName">ALUSrc_A_ctrl</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_A_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/ALUSrc_B_ctrl" type="logic">
+      <obj_property name="ElementShortName">ALUSrc_B_ctrl</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_B_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/DatatoReg_ctrl" type="logic">
+      <obj_property name="ElementShortName">DatatoReg_ctrl</obj_property>
+      <obj_property name="ObjectShortName">DatatoReg_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/rs1use_ctrl" type="logic">
+      <obj_property name="ElementShortName">rs1use_ctrl</obj_property>
+      <obj_property name="ObjectShortName">rs1use_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/rs2use_ctrl" type="logic">
+      <obj_property name="ElementShortName">rs2use_ctrl</obj_property>
+      <obj_property name="ObjectShortName">rs2use_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/MRET" type="logic">
+      <obj_property name="ElementShortName">MRET</obj_property>
+      <obj_property name="ObjectShortName">MRET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/csr_rw_ctrl" type="logic">
+      <obj_property name="ElementShortName">csr_rw_ctrl</obj_property>
+      <obj_property name="ObjectShortName">csr_rw_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/csr_w_imm_mux_ctrl" type="logic">
+      <obj_property name="ElementShortName">csr_w_imm_mux_ctrl</obj_property>
+      <obj_property name="ObjectShortName">csr_w_imm_mux_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/hazard_optype_ctrl" type="array">
+      <obj_property name="ElementShortName">hazard_optype_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hazard_optype_ctrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/ImmSel_ctrl" type="array">
+      <obj_property name="ElementShortName">ImmSel_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmSel_ctrl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/cmp_ctrl" type="array">
+      <obj_property name="ElementShortName">cmp_ctrl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cmp_ctrl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/ALUControl_ctrl" type="array">
+      <obj_property name="ElementShortName">ALUControl_ctrl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl_ctrl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/forward_ctrl_A" type="array">
+      <obj_property name="ElementShortName">forward_ctrl_A[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_ctrl_A[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/forward_ctrl_B" type="array">
+      <obj_property name="ElementShortName">forward_ctrl_B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_ctrl_B[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/forward_ctrl_ls" type="logic">
+      <obj_property name="ElementShortName">forward_ctrl_ls</obj_property>
+      <obj_property name="ObjectShortName">forward_ctrl_ls</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/PC_EXE" type="array">
+      <obj_property name="ElementShortName">PC_EXE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_EXE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/inst_EXE" type="array">
+      <obj_property name="ElementShortName">inst_EXE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_EXE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/PC_MEM" type="array">
+      <obj_property name="ElementShortName">PC_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/inst_MEM" type="array">
+      <obj_property name="ElementShortName">inst_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/PC_WB" type="array">
+      <obj_property name="ElementShortName">PC_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/inst_WB" type="array">
+      <obj_property name="ElementShortName">inst_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/exp_vector_WB" type="array">
+      <obj_property name="ElementShortName">exp_vector_WB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_vector_WB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/sim_uart_char_valid" type="logic">
+      <obj_property name="ElementShortName">sim_uart_char_valid</obj_property>
+      <obj_property name="ObjectShortName">sim_uart_char_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/sim_uart_char_out" type="array">
+      <obj_property name="ElementShortName">sim_uart_char_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sim_uart_char_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/data" type="array">
+      <obj_property name="ElementShortName">data[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[0:255][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/addra" type="array">
+      <obj_property name="ElementShortName">addra[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/wea" type="logic">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/mem_u_b_h_w" type="array">
+      <obj_property name="ElementShortName">mem_u_b_h_w[2:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_u_b_h_w[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/uart_addr_valid" type="logic">
+      <obj_property name="ElementShortName">uart_addr_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_addr_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/uart_char" type="array">
+      <obj_property name="ElementShortName">uart_char[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_char[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/SIZE" type="array">
+      <obj_property name="ElementShortName">SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/ADDR_LINE" type="array">
+      <obj_property name="ElementShortName">ADDR_LINE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_LINE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/data_ram/SIM_UART_ADDR" type="array">
+      <obj_property name="ElementShortName">SIM_UART_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIM_UART_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/R_addr_A" type="array">
+      <obj_property name="ElementShortName">R_addr_A[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr_A[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/R_addr_B" type="array">
+      <obj_property name="ElementShortName">R_addr_B[4:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr_B[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/Wt_addr" type="array">
+      <obj_property name="ElementShortName">Wt_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Wt_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/Wt_data" type="array">
+      <obj_property name="ElementShortName">Wt_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wt_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/L_S" type="logic">
+      <obj_property name="ElementShortName">L_S</obj_property>
+      <obj_property name="ObjectShortName">L_S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/rdata_A" type="array">
+      <obj_property name="ElementShortName">rdata_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/rdata_B" type="array">
+      <obj_property name="ElementShortName">rdata_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/Debug_addr" type="array">
+      <obj_property name="ElementShortName">Debug_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Debug_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/Debug_regs" type="array">
+      <obj_property name="ElementShortName">Debug_regs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Debug_regs[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/core_sim/core/register/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
